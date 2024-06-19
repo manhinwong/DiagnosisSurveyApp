@@ -1,0 +1,18 @@
+{
+    "QUESTIONS": [
+      {"type": "YN", "text": "Has the patient had any recent travel to areas with known outbreaks?"},
+      {"type": "MC", "text": "How high is the fever?", "options": ["Low grade - under 100.4°F", "Moderate - 100.4°F to 102.2°F", "High - over 102.2°F"]}
+    ],
+    "EXAM": [
+      {"type": "NUM", "text": "Measure the patient's heart rate:", "range": [60, 100]},
+      {"type": "NUM", "text": "Check the patient's blood pressure:", "range": [90, 120]}
+    ],
+    "DIAGNOSIS": "fever of unknown origin",
+    "TREATMENT": [
+      {"text": "Administer acetaminophen or ibuprofen for fever control.", "explanation": "Follow dosing instructions on the medication label."},
+      {"text": "Encourage bed rest and adequate fluid intake."}
+    ],
+    "FOLLOWUP": "Monitor fever progression and watch for any alarming symptoms like confusion or difficulty breathing. Seek medical help if fever persists or worsens.",
+    "PREVENTION": "Practice good hygiene, cover mouth when coughing, and avoid close contact with others to prevent the spread of infection."
+  }
+  
